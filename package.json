@@ -2,8 +2,10 @@
   "name": "lyrics-search-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ZeeshanTamboli.github.io/Lyrics-Search",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
@@ -12,6 +14,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
